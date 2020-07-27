@@ -1,0 +1,205 @@
+html {
+    background-color: #F5F6FA;
+}
+
+body {
+    background-color: #F5F6FA;
+}
+
+.text-off {
+    text-decoration: line-through
+}
+
+.background-light-gray {
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f8f8fb 30%, #ffffff 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f8f8fb 30%, #ffffff 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f8f8fb 30%, #ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+}
+
+.background-gray {
+    background-color: #F4F4FA;
+}
+
+.background-dark {
+    background-color: #FE508E;
+}
+
+.background-backend {
+    background-image: url(../imgs/background-backend.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.background-cloud {
+    background-image: url(../imgs/background-cloud.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.background-data {
+    background-image: url(../imgs/background-data.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.background-frontend {
+    background-image: url(../imgs/background-frontend.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.background-fullstack {
+    background-image: url(../imgs/background-fullstack.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.background-mobile {
+    background-image: url(../imgs/background-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* .card {  
+    width: 270px;
+    height: 144px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    -webkit-box-shadow: 1px 30px 47px -37px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 1px 30px 47px -37px rgba(0, 0, 0, 0.33);
+    box-shadow: 1px 30px 47px -37px rgba(0, 0, 0, 0.33);
+    padding: 10px;
+    opacity: 0.8;
+    transition: opacity 1s;
+  }
+  .card:hover {
+    -webkit-box-shadow: 0px 2px 13px 2px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0px 2px 13px 2px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 2px 13px 2px rgba(0, 0, 0, 0.18);
+    opacity: 1;
+    transition: opacity 1s;
+  } */
+
+.ssuk-card-body {
+    padding-top: 0px;
+    position: relative;
+    top: -15px;
+}
+
+.course-card h2 {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.4em;
+    opacity: 0.8;
+    text-align: right;
+    padding-top: 100px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.course-card h3 {
+    margin: 0px;
+    padding: 0px;
+    height: 130px;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.course-card p {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+.course-card img {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    position: relative;
+    left: 10px;
+    top: -24px;
+}
+
+
+
+.career-card h2 {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.4em;
+    opacity: 0.8;
+    text-align: right;
+    padding-top: 140px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.career-card h3 {
+    margin: 0px;
+    padding: 0px;
+    height: 130px;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.career-card p {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+.career-card img {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    position: relative;
+    left: 10px;
+    top: -24px;
+}
+
+/* .card h4 {
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    opacity: 0.5;
+  } */
+
+.no-link:hover {
+    text-decoration: none !important;
+}
+
+.fab {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 250px;
+}
+
+.free-tag {
+    background-color: #10dc60;
+    padding: 5px;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.7em;
+}
+
+.price-off {
+    color: #ff0000 !important;
+    text-decoration: line-through;
+    margin: 0px;
+    padding: 0px;
+}
